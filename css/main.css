@@ -11,12 +11,23 @@ body {
     font-size: 30px;
 }
 
+.you-happier {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
 p {
     text-align: center;
 }
 
-.late-happier .animate__animated {
-text-decoration: dotted;
+.late-happier {
+    font-weight: 700;
+}
+
+.happier {
+    color: yellow;
+    text-shadow: -5px 2px 5px black;
+    text-transform: uppercase;
 }
 
 .happier-balloon {
@@ -66,31 +77,32 @@ text-decoration: dotted;
     animation-name: fadeInUp;
   }
 
-  /* zoomin */
-
-  @-webkit-keyframes zoomIn {
+  /* slideinleft */
+  @-webkit-keyframes slideInLeft {
     from {
-      opacity: 0;
-      -webkit-transform: scale3d(0.3, 0.3, 0.3);
-      transform: scale3d(0.3, 0.3, 0.3);
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
     }
   
-    50% {
-      opacity: 1;
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
   }
-  @keyframes zoomIn {
+  @keyframes slideInLeft {
     from {
-      opacity: 0;
-      -webkit-transform: scale3d(0.3, 0.3, 0.3);
-      transform: scale3d(0.3, 0.3, 0.3);
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
     }
   
-    50% {
-      opacity: 1;
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
   }
-  .animate__zoomIn {
-    -webkit-animation-name: zoomIn;
-    animation-name: zoomIn;
+  .animate__slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
   }
