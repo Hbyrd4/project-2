@@ -52,7 +52,6 @@ p {
 
 .happier-cold {
  color: lightskyblue;
- /* background: linear-gradient(45deg, #2a54b9, transparent); */
  font-style: italic;
  background-image: linear-gradient(lightskyblue,white);
 }
@@ -70,6 +69,14 @@ p {
   text-transform: uppercase;
 }
 
+.happier-think{
+  color: white;
+}
+
+.happier-end {
+  font-style: italic;
+  font-weight: 700;
+}
 .happier-balloon {
     position: absolute;
     top: 0;
