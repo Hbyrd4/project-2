@@ -149,9 +149,8 @@ p {
   .animate__fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
-   
+   animation-fill-mode: forwards;
   }
-  /* forwards */
 
   /* ballon-bob */
 @-webkit-keyframes hvr-bob {
@@ -207,13 +206,13 @@ p {
   -webkit-animation-duration: .3s, 1.5s;
   animation-duration: .3s, 1.5s;
   -webkit-animation-delay: 0s, .3s;
-  animation-delay: 10s, .3s;
+  animation-delay: 5s, .3s;
   -webkit-animation-timing-function: ease-out, ease-in-out;
   animation-timing-function: ease-out, ease-in-out;
   -webkit-animation-iteration-count: 1, infinite;
   animation-iteration-count: 1, infinite;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
