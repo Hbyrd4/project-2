@@ -56,6 +56,10 @@ p {
  font-style: italic;
  background-image: linear-gradient(lightskyblue,white);
 }
+.happier-morning {
+  color:yellow;
+  background-image: linear-gradient(orange,yellow);
+}
 
 .happier-balloon {
     position: absolute;
